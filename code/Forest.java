@@ -6,18 +6,16 @@ public class Forest
 
     public static void main(String[] args)
     {
-        getPossibility();
+
+        getPossibility(50);
 
     }
-
-    public static Possibility getPossibility()
-    {
-        // created temp variables
-        int tempInput;
-        //Setting the possibility. ie 50% = 50
-        tempInput = 50;
-        //returning input
-        return new Possibility(tempInput);
+    //calling Possibiltiy, input = %. ie 50 = 50%
+    public static Possibility getPossibility(int input)
+    {   
+        return new Possibility(input);
     }
+
+
 }
    
