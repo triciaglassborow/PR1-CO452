@@ -14,7 +14,7 @@ public class Forest
     {
         // created temp variables
         int tempInput;
-        //assigning values to the variables
+        //Setting the possibility. ie 50% = 50
         tempInput = 50;
         //returning input
         return new Possibility(tempInput);
