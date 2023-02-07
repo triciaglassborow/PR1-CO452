@@ -9,9 +9,9 @@ public class Possibility
     boolean outcome;
 
     //constructor
-    public Possibility(int input)
-    {
-        this.input = input;
+    public Possibility(){}
+
+    public static boolean getPossibility(int input){
 
         int min = 1; // Minimum value of range
         int max = 100; // Maximum value of range
@@ -21,14 +21,16 @@ public class Possibility
          // comparing random and input
         if(random_int <= input)
         {
-            outcome = true;
+            return true;
+
         }
         else
         {
-            outcome = false;
+            return false;
         }
-    
+        
     }
 
+  
 
 }
